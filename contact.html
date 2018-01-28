@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Contact us -Information</title>
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.green.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Oswald:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<section>
+	<div class="container">
+		<div class="col-md-4">
+				<div class="logo">
+					<h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+				</div>
+		</div>
+		<div class="col-md-8">
+			<div class="menu">
+				<ul>
+					<li><a class="active" href="#">Home</a></li>
+					<li><a href="#">Products</a>
+						<ul>
+							<li><a href="#">Product -1 </a></li>
+							<li><a href="#">Product -2 </a></li>
+							<li><a href="#">Product -3 </a></li>
+							<li><a href="#">Product -4 </a></li>
+							<li><a href="#">Product -5 </a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Tesimonials</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section id ="breadcrumb">
+	<div class="container">
+		<h1> Contact us</h1>
+	</div>
+</section>
+<section id="contact us">
+	<div class="container">
+		<div class="col-md-6 widget-sidebar">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.6108012188483!2d77.33468431560406!3d28.671369982402368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1cb0d78f337%3A0x394b9b84b82552de!2sBinaryNote.com!5e0!3m2!1sen!2sin!4v1516111369906" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<div class="col-md-6 post">
+			<h3>Contact Details</h3>
+			<p><strong>Address </strong> : CF-4 Brij Vihar,Ghaziabad -201011</p>
+			<p><strong>Phone No </strong> : 0120-2640427</p>
+			<p><strong>Email </strong> : rakesh@binarynote.com</p>
+			<p><strong> Working Hours </strong> : Mon-Sat : 10:00AM - 5:00PM</p>
+			<h3>Send your Query Directly to us</h3>
+			<form action="contact_submit.php" method="get" accept-charset="utf-8">
+				<input type="text" name="name" id="name" placeholder="Enter your Name" required></label>
+				<input type="phone" name="phone" id="phone" placeholder="Enter your Phone No" required>
+				<input type="email" name="email" id="email" placeholder="Enter your Email" required>
+				<textarea name="msg" id="msg">Enter your message here...</textarea> <br/>
+				<input type="submit" name="submit" value="Send your query Directly">
+			</form>
+		</div>
+	</div>
+</section>	
+
+
+
+
+
+
+<footer>
+	<div class="container">
+		<div class="col-md-3 widget">
+			<h3>About us</h3>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Testimonials</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 widget ">
+			<h3>About us</h3>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Testimonials</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 widget">
+			<h3>Quick Contact Details</h3>
+			<address>
+				CF-4 Brij Vihar, Ghaziabad<br/>
+				Pin-201011</address><br/>
+				Phone : 0120-2640427 <br/>
+				Email : rakesh@binarynote.com </br/>
+
+			</address>	
+		</div>
+	</div>
+</footer>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src ="js/owl.carousel.min.js"></script>
+<script>
+jQuery(function(){
+  $(".owl-one").owlCarousel({
+  		items: 1,
+  		loop: true,
+  		dots: false,
+  		nav: true,
+  		nav: true,
+		navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+  });
+  $('.owl-two').owlCarousel({
+  		loop: true,
+  		items:3,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6
+            }
+        }
+    });
+  
+  $('.owl-three').owlCarousel({
+  		loop: true,
+  		items: 2,
+        margin: 40,
+        dots: true,
+        nav: false,
+        responsive:{
+            0:{
+                items:3
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:10
+            }
+        }
+    });
+
+  $('.owl-four').owlCarousel({
+  		loop: true,
+  		items: 2,
+        margin: 40,
+        dots: true,
+        nav: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+
+});
+</script>
+</head>
+</body>
+</html>
